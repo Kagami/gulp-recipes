@@ -1,6 +1,6 @@
 [gulp-angular-gettext](https://www.npmjs.org/package/gulp-angular-gettext) has the ability to extract translation strings from JS and HTML files (using [angular-gettext-tools](https://www.npmjs.org/package/angular-gettext-tools)) but it can't extract inline templates defined in directives.
 
-So here comes the `inlineTemplates` helpers:
+So here comes the `inlineTemplates` helper:
 
 ```coffee
 File = require "vinyl"
